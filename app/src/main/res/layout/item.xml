@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+
+    <TextView
+        android:id="@+id/day"
+        android:fontFamily="cursive"
+        android:layout_width="443dp"
+        android:layout_height="49dp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="Day 0"
+        android:textSize="32dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:text="8.5 hour(s)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="sleep"
+            android:layout_weight="1"
+            android:lines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
