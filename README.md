@@ -33,6 +33,8 @@ Here's a walkthrough of implemented user stories:
 
 ![Alt Text](Android_project5.gif)
 
+Note: The gif is really long so please download and speed it up 
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with screentogif
 <!-- Recommended tools:
