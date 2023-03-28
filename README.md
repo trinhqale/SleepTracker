@@ -1,6 +1,6 @@
-# Android Project 5 - *Name of App Here*
+# Android Project 5 - *Sleep Tracker*
 
-Submitted by: **Your Name Here**
+Submitted by: **Trinh Le**
 
 **Sleep Tracker** is a health metrics app that allows users to track their sleep schedules
 
